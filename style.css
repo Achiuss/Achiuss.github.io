@@ -1,0 +1,31 @@
+td {
+
+    text-align: center;
+
+}
+
+h3{
+    color: #FC7629;
+}
+
+p {
+    color: #2A3655;
+}
+.sup_element {
+    color: red;
+}
+footer p {
+    color: red;
+}
+/* .first-class {
+    color: red;
+}
+h1 {
+    color: green;
+}
+.third-class {
+    color:red !important;
+}
+#first-id {
+    color: blue;
+} */
