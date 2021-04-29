@@ -3,6 +3,19 @@ td {
     text-align: center;
 
 }
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+table {
+    text-align: center;
+    line-height: 200%;
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
 
 h3{
     color: #FC7629;
@@ -17,15 +30,29 @@ p {
 footer p {
     color: red;
 }
-/* .first-class {
-    color: red;
+mark {
+    border-radius: 5px;
 }
-h1 {
-    color: green;
+div#main-content {
+    background-color: #cacaca;
+    padding: 20px;
+    display: flex;
 }
-.third-class {
-    color:red !important;
+a:hover {
+    color: #ff66ce;
 }
-#first-id {
+table tr:first-child {
     color: blue;
-} */
+}
+
+#articles {
+    flex-grow: 1;
+
+}
+#skills {
+    flex-grow: 1;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
